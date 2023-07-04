@@ -19,8 +19,8 @@ node {
     }
   
     stage('deploy') {
-      def resourceGroup = 'uma1_group'
-      def webAppName = 'test045'
+      def resourceGroup = 'mahesh'
+      def webAppName = 'ponagandla'
       // login Azure
       withCredentials([usernamePassword(credentialsId: '60057465-128e-41ad-a4d9-87b0491cc000', passwordVariable: 'rEP8Q~t6Df0fTKPX2J06JaVN3Bn3Y~Npkqzexbv4', usernameVariable: '212f221c-f3eb-4813-aad4-56412074f90e')]) {
        sh '''
